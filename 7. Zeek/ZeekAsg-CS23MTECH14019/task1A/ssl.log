@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-03-30-14-07-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1711787097.814912	CNeCwYIX5b28cbdg7	192.168.0.103	59636	142.250.195.106	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	waa-pa.clients6.google.com	T	-	-	T	CIsi	-	-	-
+1711787164.884994	Cz3QqU2Onxekvso5Jg	192.168.0.103	35112	142.250.195.106	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	waa-pa.clients6.google.com	T	-	-	T	CIsi	-	-	-
+1711787169.281154	CVQSxu1bR4q4WGg15i	192.168.0.103	34936	142.250.182.129	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	lh3.googleusercontent.com	T	-	-	T	CIsi	-	-	-
+1711787181.947670	C1HvyG1dWlIzagSiEj	192.168.0.103	60612	172.217.160.142	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	classroom.google.com	T	-	-	T	CIsi	-	-	-
+1711787397.634286	CPcrJC2y8MGC4d0vm5	192.168.0.103	44814	34.117.237.239	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	contile.services.mozilla.com	T	-	-	T	CsiI	-	-	-
+1711787397.760033	CudqI12vBqI4ergtGl	192.168.0.103	36286	142.250.196.42	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	waa-pa.clients6.google.com	T	-	-	T	CIsi	-	-	-
+1711787422.145350	CKPmDaa8lRfXvPkC1	192.168.0.103	47282	172.217.160.142	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	classroom.google.com	T	-	-	T	CIsi	-	-	-
+1711787423.978714	CtnDb83lxubQFNWu44	192.168.0.103	45424	74.125.68.84	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	accounts.google.com	T	-	-	T	CIsi	-	-	-
+1711787564.868698	C7BZVF2KhHTkBHMaN5	192.168.0.103	40976	172.64.155.141	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	ab.chatgpt.com	T	-	-	T	CIsi	-	-	-
+1711787602.429827	CKEsaq1Rxyol0bRRYd	192.168.0.103	53010	172.217.160.142	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	classroom.google.com	T	-	-	T	CIsi	-	-	-
+#close	2024-03-30-14-07-05

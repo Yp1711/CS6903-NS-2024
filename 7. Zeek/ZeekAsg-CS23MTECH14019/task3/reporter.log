@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2024-03-30-18-29-15
+#fields	ts	level	message	location
+#types	time	enum	string	string
+1711801726.476221	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./identify_self_signed_cert.zeek, line 4
+1711801726.688025	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./identify_self_signed_cert.zeek, line 4
+1711801726.998677	Reporter::ERROR	field value missing (c$ssl$cert_chain)	./identify_self_signed_cert.zeek, line 4
+#close	2024-03-30-18-29-15

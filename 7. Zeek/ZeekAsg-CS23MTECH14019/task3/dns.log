@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2024-03-30-18-31-51
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1711801725.920696	COhiCt46lauLf1IXvd	172.19.125.149	49407	192.168.35.52	53	udp	52379	-	robohash.org	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1711801725.920604	CmrfWo1IJQpvj3GIQ1	172.19.125.149	50851	192.168.35.52	53	udp	51593	0.137791	robohash.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	104.21.82.202,172.67.162.221	300.000000,300.000000	F
+1711801726.316332	C6t7gJ2obyuKih7Eyd	172.19.125.149	33057	192.168.35.52	53	udp	45806	0.055311	incoming.telemetry.mozilla.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	telemetry-incoming.r53-2.services.mozilla.com,34.120.208.123	24.000000,3466.000000	F
+1711801726.474650	CziVtGDXn5tb52Toc	172.19.125.149	43179	192.168.35.52	53	udp	28744	0.002676	contile-images.services.mozilla.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	34.120.115.102	432.000000	F
+1711801726.752242	Cs5yry3NTqupsj3GCj	172.19.125.149	36500	192.168.35.52	53	udp	24436	0.030522	img-getpocket.cdn.mozilla.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	img-getpocket-cdn.prod.mozaws.net,img-prod.pocket.prod.cloudops.mozgcp.net,34.120.237.76	35.000000,251.000000,636.000000	F
+1711801725.894139	CReeOC4GnPNePQkec	172.19.125.149	32903	192.168.35.52	53	udp	55888	-	mcfp.felk.cvut.cz	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1711801725.894056	CcSNHK2Ob9LCO9o528	172.19.125.149	57640	192.168.35.52	53	udp	64691	1.135237	mcfp.felk.cvut.cz	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	147.32.82.194	3600.000000	F
+1711801727.191581	Cwc6y613LcI8ymJ8Q9	172.19.125.149	40393	192.168.35.52	53	udp	59834	0.004709	self-signed.badssl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	104.154.89.105	496.000000	F
+#close	2024-03-30-18-31-51

@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-03-30-18-48-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1711804702.784179	C22Q1g2mCnrNfzpXNg	172.19.125.149	36744	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	self-signed.badssl.com	T	-	http/1.1	T	CsiI	-	-	-
+1711804703.036555	CWLQRY1NSCWYTypd31	172.19.125.149	36752	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	-	self-signed.badssl.com	T	-	http/1.1	T	CsiI	-	-	-
+1711804711.492475	CudgW34YnAPBUxw1Pj	172.19.125.149	52704	34.120.115.102	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	contile-images.services.mozilla.com	T	-	-	T	CsiI	-	-	-
+1711804712.450825	CCFUE526JjCut0nq27	172.19.125.149	48266	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711804712.453936	CYIAMX3V8LM2mz9Sa	172.19.125.149	48260	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711804712.722078	C4XDk93CifAvyJbO15	172.19.125.149	48280	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711804728.927798	CRdjtxIvFXGt5XWb5	172.19.125.149	45794	142.250.195.74	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	safebrowsing.googleapis.com	T	-	-	T	CIsi	-	-	-
+1711804739.157952	CbYkxv4WmuBIHjUSx9	172.19.125.149	39222	104.18.32.115	443	-	-	-	ab.chatgpt.com	F	-	-	F	C	-	-	-
+#close	2024-03-30-18-49-06

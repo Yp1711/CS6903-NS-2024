@@ -1,0 +1,2 @@
+# CS6903-NS-2024
+Welcome to the repository for the CS6903 Network Security (NS) course assignments from 2024. This repository contains all the assignments completed as part of the CS6903 curriculum at IITH.
