@@ -11,7 +11,7 @@ Setting 40% loss at client's network card , use the following command :
 
 ```
 
-link to project presentation
+link to project presentation:
 
 ```
 https://www.youtube.com/watch?v=Fx6YZB8Coag&feature=youtu.be
